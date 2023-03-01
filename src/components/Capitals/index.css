@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #93c5fd;
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: #f8fafc;
+  border-radius: 10px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: 'Roboto';
+  color: #000000;
+}
+.select-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.selected-item {
+  color: #1e293b;
+  font-family: 'Roboto';
+}
+.country-name {
+  font-family: 'Roboto';
+  color: #000000;
+  font-weight: bold;
+  align-self: flex-start;
+  margin-left: 5px;
+  font-size: 25px;
+}
+
+.select-list {
+  border: 1px #cbd2d9 solid;
+  height: 30px;
+  width: 60%;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+.description {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #323f4b;
+  margin-left: 10px;
+  width: 250px;
+}
